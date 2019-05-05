@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activityDialog">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/profile"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Teuku Rizzki Nabil"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/iv_icon" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rizki Nabil Application Design"
+        android:textSize="12.3dp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:layout_below="@+id/tv_title"/>/>
+
+</RelativeLayout>
